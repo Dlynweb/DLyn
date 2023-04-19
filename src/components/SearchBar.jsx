@@ -12,7 +12,7 @@ function SearchBar({ searchText, setSearchText }) {
         <div className="search-bar">
             <input
                 type="text"
-                placeholder="Search costumes"
+                placeholder="Buscar disfraces"
                 value={searchText}
                 onChange={handleInputChange}
             />

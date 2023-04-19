@@ -10,7 +10,7 @@
     left: 0;
     width: 100%;
     font-weight: bold;
-    background: #fc3b4e;
+    background: var(--cta-color);
     z-index: 5;
     font-size: 1.4rem;
 }
@@ -28,4 +28,9 @@
 .navbar__title {
     margin: 0;
 
+}
+
+.navbar__right a{
+    text-decoration: none;
+    color: white;
 }

@@ -27,10 +27,10 @@ function Footer() {
 
     return (
         <div className="footer">
-            <h2 className="footer-title">Contact Us</h2>
+            <h2 id="footer" className="footer-title">Reservar</h2>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
-                    <label htmlFor="name">Name:</label>
+                    <label htmlFor="name">Nombre:</label>
                     <input
                         type="text"
                         id="name"
@@ -40,7 +40,7 @@ function Footer() {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="costume-name">Costume Name:</label>
+                    <label htmlFor="costume-name">Nombre del disfraz:</label>
                     <input
                         type="text"
                         id="costume-name"
@@ -50,7 +50,7 @@ function Footer() {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="phone-number">Phone Number:</label>
+                    <label htmlFor="phone-number">No. de Telefono:</label>
                     <input
                         type="tel"
                         id="phone-number"

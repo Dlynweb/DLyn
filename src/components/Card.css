@@ -21,7 +21,7 @@
 
 .card__name {
     font-weight: bold;
-    color: #fc3b4e;
+    color: var(--cta-color);
     margin-top: .5rem;
     margin-bottom: 0;
 }

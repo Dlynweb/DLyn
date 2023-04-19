@@ -10,10 +10,12 @@ function Navbar() {
         <FontAwesomeIcon icon={faBars} />
       </div>
       <div className="navbar__middle">
-        <p className="navbar__title">Lorem Ipsum</p>
+        <p className="navbar__title">D'Lyn Disfraces</p>
       </div>
       <div className="navbar__right">
-        <FontAwesomeIcon icon={faEnvelope} />
+          <a href="#footer">
+              <FontAwesomeIcon icon={faEnvelope} />
+          </a>
       </div>
     </nav>
   );
