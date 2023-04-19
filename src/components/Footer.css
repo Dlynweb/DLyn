@@ -1,0 +1,68 @@
+.footer {
+    margin: 24px;
+    padding: 5px 24px 24px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.footer form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .form-group {
+    flex-basis: calc(33.33% - 16px);
+    margin-bottom: 16px;
+}
+
+.footer label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #777777;
+}
+
+.footer input[type="text"],
+.footer input[type="tel"] {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    color: black;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.footer button[type="submit"] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #fc3b4e;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer button[type="submit"]:hover,
+.footer button[type="submit"]:focus {
+    background-color: #f72c41;
+}
+
+.footer-title {
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #777777;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
