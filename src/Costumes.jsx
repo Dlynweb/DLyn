@@ -62,7 +62,7 @@ import g3 from './assets/Spiderman T6.jpg';
 import g4 from './assets/Tradicional Chinita T6-8.jpg';
 import g5 from './assets/Vampiresa y Bruja.jpg';
 
-export const costumes = [
+export default [
     {name: 'Vampiresa y Bruja', img: g5, fitSize: '0', gender: 'F'},
     {name: 'Tradicional China', img: g4, fitSize: '6-8', gender: 'F'},
     {name: 'Spiderman', img: g3, fitSize: '6', gender: 'M'},
