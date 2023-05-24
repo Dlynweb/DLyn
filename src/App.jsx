@@ -5,7 +5,7 @@ import CostumeList from "./components/CostumeList.jsx";
 import SearchBar from "./components/SearchBar.jsx";
 import Footer from "./components/Footer.jsx";
 import ContactUs from "./components/ContactUs.jsx";
-import costumes from './Costumes'
+import costumes from './Costumes.jsx'
 
 
 function App() {
