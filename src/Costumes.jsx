@@ -61,8 +61,46 @@ import g2 from './assets/Spidergirl TS.jpg';
 import g3 from './assets/Spiderman T6.jpg';
 import g4 from './assets/Tradicional Chinita T6-8.jpg';
 import g5 from './assets/Vampiresa y Bruja.jpg';
+/*=====================================================*/
+import h1 from './assets/Batch_24-6/Angel.jpg';
+import h2 from './assets/Batch_24-6/Brujitas.jpg';
+import h3 from './assets/Batch_24-6/Caperucita Roja T5.jpg';
+import h4 from './assets/Batch_24-6/Caperucita Roja.jpg';
+import h5 from './assets/Batch_24-6/Catrina (2).jpg';
+import h6 from './assets/Batch_24-6/Catrina (3).jpg';
+import h7 from './assets/Batch_24-6/Catrina.jpg';
+import h8 from './assets/Batch_24-6/LadyBug.jpg';
+import h9 from './assets/Batch_24-6/Minnie.jpg';
+import i1 from './assets/Batch_24-6/MujerMaravilla.jpg';
+import i2 from './assets/Batch_24-6/NavidadTL.jpg';
+/*=====================================================*/
+import i4 from './assets/Batch_24-6/Novia Cadaver.jpg';
+import i5 from './assets/Batch_24-6/Olaf.jpg';
+import i6 from './assets/Batch_24-6/Payasita T3.jpg';
+import i7 from './assets/Batch_24-6/PricesaHalloween.jpg';
+import i8 from './assets/Batch_24-6/ReinaDeCorazones.jpg';
+import i9 from './assets/Batch_24-6/Zombie TXL.jpg';
+
+
 
 export default [
+    {name: 'Zombie', img: i9, fitSize: 'XL', gender: 'M'},
+    {name: 'Reina de Corazones', img: i8, fitSize: '0', gender: 'F'},
+    {name: 'Princesa Halloween', img: i7, fitSize: '0', gender: 'F'},
+    {name: 'Payasita', img: i6, fitSize: '3', gender: 'F'},
+    {name: 'Olaf', img: i5, fitSize: '0', gender: 'M'},
+    {name: 'Novia Cadaver', img: i4, fitSize: '0', gender: 'F'},
+    {name: 'Navidad', img: i2, fitSize: 'L', gender: 'F'},
+    {name: 'Wonder Woman', img: i1, fitSize: '0', gender: 'F'},
+    {name: 'Minnie', img: h9, fitSize: '0', gender: 'F'},
+    {name: 'Ladybug', img: h8, fitSize: '0', gender: 'F'},
+    {name: 'Catrina', img: h7, fitSize: '0', gender: 'F'},
+    {name: 'Catrina', img: h6, fitSize: '0', gender: 'F'},
+    {name: 'Catrina', img: h5, fitSize: '0', gender: 'F'},
+    {name: 'Caperucita Roja', img: h4, fitSize: '0', gender: 'F'},
+    {name: 'Caperucita Roja', img: h3, fitSize: '5', gender: 'F'},
+    {name: 'Brujitas', img: h2, fitSize: '0', gender: 'F'},
+    {name: 'Angel', img: h1, fitSize: '0', gender: 'F'},
     {name: 'Vampiresa y Bruja', img: g5, fitSize: '0', gender: 'F'},
     {name: 'Tradicional China', img: g4, fitSize: '6-8', gender: 'F'},
     {name: 'Spiderman', img: g3, fitSize: '6', gender: 'M'},
